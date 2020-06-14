@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controls">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/forza_controls"
+            android:layout_weight="0.50"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="
+            XBOX CONTROLS\n\n
+            Left Stick – Steering\n
+Right Stick – Free Look\n
+Right Stick (Click) – Horn\n
+View Button – Activate\n
+B – Shift Up\n
+X – Shift Down\n
+Y – Rewind\n
+A – Clutch\n
+LB – E-Brake\n
+LT – Accelerate\n
+RB – Switch Camera\n
+RT – Brake\n
+D-Pad Up Button – Photo Mode\n
+D-Pad Down Button – Activate Anna / Toggle Mini Leaderboard\n
+D-Pad Left Button – Activate Quick Chat\n
+D-Pad Right Button – Cycle Radio\n
+Menu Button – Pause\n\n"
+            android:padding="16dp"
+            android:fontFamily="@font/alice"
+            android:textColor="#fff"
+            android:background="#29452D"/>
+
+        //pc
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.50"
+            android:background="@drawable/controls_pc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.50"
+            android:padding="16dp"
+            android:fontFamily="@font/alice"
+            android:textColor="#fff"
+            android:background="#3A3E24"
+            android:text="Every control option on the PC version of Forza Horizon 4.\n\n
+
+WASD – Acceleration / Brake / Turning\n
+E – Shift Up\n
+Q – Shift Down\n
+Space – Hand Brake\n
+Shift – Clutch\n
+R – Rewind\n
+TAB – Change Camera View\n
+Enter – Activation\n
+M – Map\n
+H – Horn\n
+P – Photo Mode\n\n
+C – Activate ANNA\n
+ESC – Pause\n"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

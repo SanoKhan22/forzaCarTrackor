@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    android:background="#CA090453"
+    tools:context=".introduction">
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/horizonmotor"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"/>
+
+    // indroduction
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textAllCaps="true"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        android:shadowColor="#E9EFF1"
+        android:shadowRadius="2"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:fontFamily="@font/krona_one"
+        android:gravity="center"
+        android:text="@string/intro_forza"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#841D0D3E"
+            android:fontFamily="@font/autour_one"
+            android:padding="20dp"
+            android:text="@string/intro_detail"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</RelativeLayout>
